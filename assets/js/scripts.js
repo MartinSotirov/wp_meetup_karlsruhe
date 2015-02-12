@@ -6,7 +6,6 @@ jQuery(document).ready(function($) {
 
 	viewport.on('load resize', function(e) {
 		landingPage.css('height', (viewport.height()-adminBar) + 'px');
-		console.log(adminBar);
 	});
 
 });
