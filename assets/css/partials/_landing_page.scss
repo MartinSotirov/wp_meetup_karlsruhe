@@ -31,8 +31,8 @@
 			font-size: em(74);
 		}
 
-		margin-top: 20vh;
-		@include media(min-height 800px) {
+		margin-top: 25vh;
+		@include media(min-height 768px) {
 			margin-top: 30vh;
 		}
 	}
