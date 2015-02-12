@@ -1,0 +1,87 @@
+#landing-page {
+	width: 100%;
+	position: relative;
+
+	.inner-container {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../images/source-code-583537.jpg) no-repeat;
+		background-size: cover;
+	}
+	.big-title,
+	.sub-title {
+		text-align: center;
+	}
+	.big-title {
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		
+		font-size: em(35);
+		@include media(768px) {
+			font-size: em(50);
+		}
+		@include media(1024px) {
+			font-size: em(74);
+		}
+
+		margin-top: 20vh;
+		@include media(min-height 800px) {
+			margin-top: 30vh;
+		}
+	}
+	.sub-title {
+		font-weight: 400;
+		font-size: em(16);
+		@include media(768px) {
+			font-size: em(24);
+		}
+	}
+	#call-to-action {
+		display: block;
+		position: relative;
+		text-align: center;
+		margin: 3em auto 0;
+		@include media(min-height 800px) {
+			margin: 6em auto 0;
+		}
+	}
+	.btn {
+		border: none;
+		color: white;
+		font-weight: 300;
+		font-size: em(24);
+		padding: .7em 1.5em;
+		border-radius: 5px;
+		margin: 0 auto 1em;
+		display: block;
+
+		@include media(600px) {
+			display: inline-block;
+			&.btn-portfolio {
+				margin-right: 1em;
+			}
+		}
+
+		&.btn-quote {
+			background: $pastel-red;
+			border: 1px solid $pastel-red;
+		}
+
+		&.btn-portfolio {
+			border: 1px solid white;
+			background: rgba(white, .1);
+			@include transition(all .5s);
+			&:hover {
+				background: white;
+				color: black;
+				border: 1px solid white;
+			}
+		}
+	}
+}

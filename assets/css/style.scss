@@ -1,0 +1,21 @@
+// Bourbon & Neat
+@import "../../bower_components/bourbon/dist/bourbon";
+@import "../../bower_components/neat/app/assets/stylesheets/neat";
+
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+
+// color variables
+@import "partials/colors";
+
+// typography
+@import "partials/typography";
+
+// base stylesheet
+@import "partials/base";
+
+// header styles
+@import "partials/header";
+
+// landing page styles
+@import "partials/landing_page";

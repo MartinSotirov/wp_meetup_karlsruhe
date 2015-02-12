@@ -1,0 +1,22 @@
+{
+  "name": "awesome-demo",
+  "version": "0.9.0",
+  "homepage": "",
+  "authors": [
+    "Martin Sotirov <martin@evil.ninja>"
+  ],
+  "description": "A custom demo theme for the Karlsruhe WP Meetup",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "3.2.4",
+    "neat": "1.5.1"
+  }
+}
